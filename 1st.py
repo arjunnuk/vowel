@@ -1,0 +1,8 @@
+n1=int(input("enter the value of n1"))
+n2=int(input("enter the value of n2"))
+s=0
+if(n1>n2):
+    n1,n2=n2,n1
+for i in range(n1,n2):
+    s=s+i
+print("sum=",s)
