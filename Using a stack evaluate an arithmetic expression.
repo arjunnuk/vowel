@@ -83,7 +83,7 @@ def Infix(expr):
 
 
 # Test
-expr = input("enter th an expression")
+expr = input("enter the an expression")
 print("EXPR: " + expr)
 print("EVAL: " + str(eval(expr)))
 print("INFX: " + Infix(expr))
