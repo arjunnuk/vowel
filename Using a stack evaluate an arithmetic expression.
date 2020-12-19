@@ -17,6 +17,7 @@ def isNum(c):
         return False
 
 
+
 def calc(op, num1, num2):
     if op == "+": return str(float(num1) + float(num2))
     if op == "-": return str(float(num1) - float(num2))
