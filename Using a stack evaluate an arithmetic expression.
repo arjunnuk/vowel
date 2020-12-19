@@ -57,7 +57,7 @@ def Infix(expr):
                         stackChr.append(c)
                         break
                 else:
-                    stackChr.append(c)
+                     stackChr.append(c)
                     break
         elif c == "(":
             stackChr.append(c)
