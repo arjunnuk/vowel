@@ -5,7 +5,7 @@ def isOp(c):
         return False
 
 
-def pri(c):  # operator priority
+def pri(c):  # operator prior ity
     if c in "+-": return 0
     if c in "*/": return 1
 
