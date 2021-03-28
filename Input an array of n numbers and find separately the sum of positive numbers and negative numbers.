@@ -12,5 +12,5 @@ for i in li:
      psum=psum+i
   else:
      nsum=nsum+i
-print("the sumof positive number is",psum)
+print("the sum of positive number is",psum)
 print("the sum of negative number is",nsum)
